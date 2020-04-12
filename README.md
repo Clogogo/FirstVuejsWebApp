@@ -15,4 +15,4 @@ npm run serve
 npm run build
 
 
-Gitnub repo: https://github.com/Clogogo/FirstVuejsWebApp
+Github repo: https://github.com/Clogogo/FirstVuejsWebApp
