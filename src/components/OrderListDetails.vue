@@ -5,7 +5,7 @@
       show
       variant="success"
       v-if="this.$route.query.success"
-    >Thank you for submitting your order. It will be shipped within 7 working days</b-alert>
+    >Thank you for submitting your order. Item would be delivered within 14 working days</b-alert>
     <table class="table">
       <tr>
         <th>Product</th>

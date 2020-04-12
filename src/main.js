@@ -11,7 +11,6 @@ import ProductPage from "./components/ProductPage.vue";
 import ShoppingCartPage from "./components/ShoppingCartPage.vue";
 import OrderList from "./components/OrderList.vue";
 import OrderListDetails from "./components/OrderListDetails.vue";
-import Profile from "./components/Profile.vue";
 
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
@@ -23,7 +22,6 @@ const router = new VueRouter({
     { path: "/categories/:categoryAlias", component: CategoryPage },
     { path: "/products/:productId", component: ProductPage },
     { path: "/cart", component: ShoppingCartPage },
-    { path: "/profile", component: Profile },
     { path: "/orderlist", component: OrderList },
     { path: "/orderdetails/:orderId", component: OrderListDetails },
   ],
